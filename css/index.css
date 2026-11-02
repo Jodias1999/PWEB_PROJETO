@@ -1,0 +1,176 @@
+#div{
+    margin-left: auto
+}
+
+/*inicio do slider */
+
+.altura-slider{
+    height: 70%;
+    max-height: 70%;
+}
+
+.background-carousel-1{
+    height: 70%;
+    background-color: black;
+    max-height: 70%;
+}
+
+.texto-slider-1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    padding-right: 30%;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.imagem-slider-1{
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+}
+
+.altura-botao-antes{
+    height: 81%;
+    width: 30px;
+    left: 3%;
+}
+
+.altura-botao-depois{
+    height: 81%;
+    width: 30px;
+    right: 3%;
+}
+
+.botao-ver-mais{
+    border-radius: 5px;
+    background-color: transparent;
+    color: lightblue;
+    text-align: center;
+    border-color: lightblue;
+    padding: 10px 25px;
+}
+/* Fim do slider */
+
+/*Inicio dos paises*/
+.subtitulo-paises{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/*Fim dos paises*/
+
+/*inicio explorar*/
+
+.explorar-img{
+    width: 100%;
+    height: 60%; 
+    display: flex; 
+    overflow: hidden;
+}
+.explorar-img-sombra{
+    filter: brightness(0.2); 
+    width: 100%;
+}
+
+.botao-explorar{
+    margin: 5%;
+    background-color: white;
+    color: black;
+    text-decoration-line: none;
+    font-size: 12pt;
+    padding: 15px 32px;
+    border-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.botao-explorar:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s 50ms
+}
+
+.titulo-explorar{
+    font-weight: bolder; 
+    font-size: 4rem; 
+    padding-bottom: 3%;
+}
+
+.texto-explorar{
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    height: 100px;
+}
+
+/*fim do explorar*/
+
+/*Inicio do sobre nos*/
+.sobre h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40pt;
+    color: black;
+}
+
+.sobre p{
+    align-items: center;
+    width: 500px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Fim do sobre nos*/
+
+/*Inicio do footer*/
+.texto-footer{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 1%;
+}
+
+
+.logo-footer{
+    width: 100%;
+    height: 40px;
+}
+
+
+.logo-instagram{
+    width: 50px;
+    height: 43px;
+}
+
+
+.logo-facebook {
+    width: 60px;
+    height: 40px;
+}
+
+.logo-twitter{
+    width: 50px;
+    height: 40px;
+}
+
+.logo-linkedin{
+    width: 40px;
+    height: 45px;
+}
+
+.logo-footer{
+    width: 1%;
+    height: 93px;
+}
+
+.nav-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-footer:hover{
+    color: #1559B7;
+}
+/*Fim do footer*/

@@ -1,0 +1,92 @@
+.titulo-contacto{
+    text-align: center;
+    font-weight: bold;
+}
+
+.imagem-de-fundo{
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+    background-repeat: no-repeat;
+}
+
+.botao-enviar{
+    width: 100%;
+    margin-top: 1%;
+    padding: 2%;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    opacity:70%;
+}
+
+.botao-enviar:hover{
+    opacity: 100%;
+}
+
+.labels{
+    opacity: 50%;
+}
+
+.labels:hover,
+.labels:focus-within {
+  opacity: 100%;
+}
+
+/*Inicio do sobre nós*/
+
+.sobre h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40pt;
+    color: black;
+}
+
+.sobre p{
+    align-items: center;
+    width: 500px;
+}
+
+/*Fim do sobre nós*/
+
+.texto-footer{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 1%;
+}
+
+.logo-instagram{
+    width: 50px;
+    height: 43px;
+}
+
+
+.logo-facebook {
+    width: 60px;
+    height: 40px;
+}
+
+.logo-twitter{
+    width: 50px;
+    height: 40px;
+}
+
+.logo-linkedin{
+    width: 40px;
+    height: 45px;
+}
+
+.logo-footer{
+    width: 1%;
+    height: 93px;
+}
+
+.nav-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-footer:hover{
+    color: #1559B7;
+}
